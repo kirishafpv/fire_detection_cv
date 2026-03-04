@@ -1,6 +1,7 @@
+streamlit
 torch
 torchvision
 pillow
-numpy
+opencv-python
 matplotlib
-cv2
+numpy
