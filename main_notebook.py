@@ -83,6 +83,7 @@ def _(device, lr, models, nn, optim):
 
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=lr)
+    model
     return criterion, model, optimizer
 
 
