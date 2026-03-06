@@ -13,17 +13,24 @@ def _():
 
 @app.cell
 def _(YOLO):
-    model = YOLO("yolov8n.pt")
+    model = YOLO("yolov8s.pt")
+    #model = YOLO("yolov8n.pt)
     model
     return (model,)
 
 
 @app.cell
 def _(model):
+    # model.train(
+    #     data="dataset_yolo/data.yaml",
+    #     epochs=50,
+    #     imgsz=640
+    # )
     model.train(
         data="dataset_yolo/data.yaml",
-        epochs=50,
-        imgsz=640
+        epochs=120,
+        imgsz=640,
+        batch=16
     )
     return
 
