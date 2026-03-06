@@ -61,7 +61,7 @@ def load_yolo():
 @st.cache_resource
 def load_yolo_better():
 
-    model = YOLO("runs/detect/train5/weights/best.pt")
+    model = YOLO("runs/detect/train5/weights/best.torchscript")
 
     return model
 
