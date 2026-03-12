@@ -138,16 +138,16 @@ best.pt
 
 # 📂 Структура репозитория
 
-runs/detect
-README.md
-app.py
-app_all.py
-fire_model.pth
-main_notebook.py
-prepare_dataset.py
-requirements.txt
-yolo_notebook.py
-yoloapp.py
+runs/detect\
+README.md\
+app.py\
+app_all.py\
+fire_model.pth\
+main_notebook.py\
+prepare_dataset.py\
+requirements.txt\
+yolo_notebook.py\
+yoloapp.py\
 
 ------------------------------------------------------------------------
 
