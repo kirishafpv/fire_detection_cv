@@ -138,23 +138,22 @@ best.pt
 
 # 📂 Структура репозитория
 
-project/
-
-app.py\
-train_resnet.py\
-train_yolo.py\
-fire_model.pth\
-best.pt\
-requirements.txt\
+runs/detect
 README.md
+app.py
+app_all.py
+fire_model.pth
+main_notebook.py
+prepare_dataset.py
+requirements.txt
+yolo_notebook.py
+yoloapp.py
 
 ------------------------------------------------------------------------
 
 # ⚙️ Установка
 
-git clone https://github.com/your_username/fire_detection_cv
-
-cd fire_detection_cv
+git clone https://github.com/kirishafpv/fire_detection_cv.git
 
 pip install -r requirements.txt
 
@@ -164,7 +163,11 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+
+
 ------------------------------------------------------------------------
+
+Или просто перейти на сайт https://detectionfire.streamlit.app/
 
 # 📊 Результаты
 
