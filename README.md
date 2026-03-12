@@ -147,7 +147,7 @@ main_notebook.py\
 prepare_dataset.py\
 requirements.txt\
 yolo_notebook.py\
-yoloapp.py\
+yoloapp.py
 
 ------------------------------------------------------------------------
 
